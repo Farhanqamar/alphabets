@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    max-width: 50%;
+}
+h1{
+    margin-top: 100px;
+    font-size: 100px;
+    position: relative;
+    right: 30px;
+    top: 15px;
+    color: black;
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}
+button{
+    height: 50px;
+    width: 130px;
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #00ffff;
+    color: black;
+    border-radius: 5px;
+    transition: .4s;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'sans-serif';
+}
+button:hover{
+    box-shadow:0 0 5px #00ffff,
+    0 0 20px #00ffff,
+    0 0 60px #00ffff,
+    0 0 80px #00ffff;
+}
+</style>
+</head>
+<body>
+    <section>
+        <div class="col">
+            <h1>A</h1>
+            <button type="button" onclick="document.getElementById('a').src ='A.jpg'"> for </button>
+            <img src="alphabet.png" id="a" alt="">
+        </div>
+        <div class="col">
+            <h1>B</h1>
+            <button onclick="document.getElementById('b').src ='B.webp'"> for </button>
+            <img src="alphabet.png" id="b" alt="">
+        </div>
+        <div class="col">
+            <h1>C</h1>
+            <button onclick="document.getElementById('c').src ='C.jpg'"> for </button>
+            <img src="alphabet.png" id="c" alt="">
+        </div>
+        <div class="col">
+            <h1>D</h1>
+            <button onclick="document.getElementById('d').src ='D.jpg'"> for </button>
+            <img src="alphabet.png" id="d" alt="">
+        </div>
+        <div class="col">
+            <h1>E</h1>
+            <button type="button" onclick="document.getElementById('e').src ='E.jpg'"> for </button>
+            <img src="alphabet.png" id="e" alt="">
+        </div>
+        <div class="col">
+            <h1>F</h1>
+            <button type="button" onclick="document.getElementById('f').src ='F.jpg'"> for </button>
+            <img src="alphabet.png" id="f" alt="">
+        </div>
+        <div class="col">
+            <h1>G</h1>
+            <button onclick="document.getElementById('g').src ='G.jpg'"> for </button>
+            <img src="alphabet.png" id="g" alt="">
+        </div>
+        <div class="col">
+            <h1>H</h1>
+            <button type="button" onclick="document.getElementById('h').src ='H.webp'"> for </button>
+            <img src="alphabet.png" id="h" alt="">
+        </div>
+    
+    </section>
+
+
+</body>
+</html>
